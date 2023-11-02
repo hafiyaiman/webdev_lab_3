@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #151515;
+    font-family: Verdana;
+}
+
+.box {
+    height: min-content;
+    background-color: rgb(38, 38, 38);
+    border-radius: 15px;
+    width: auto;
+    margin: 120px;
+    margin-top: 40px;
+}
+
+.sec_box {
+    height: 700px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 15px;
+    text-align: right;
+
+}
+
+h1 {
+    padding-top: 190px;
+    padding-left: 80px;
+    text-align: left;
+    font-size: 80px;
+    color: rgb(242, 241, 241);
+}
+
+.center {
+    text-align: center;
+}
+
+.profile_acc {
+    margin-top: 150px;
+    margin-right: 80px;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: 0 70%;
+    border-radius: 50%;
+    border-style: double;
+    border: none;
+    outline: 6px solid rgb(207, 22, 207);
+    outline-offset: 7px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+p {
+    padding-left: 80px;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 40px;
+    color: rgb(202, 202, 202);
+    font-weight: lighter;
+
+}
+
+.third_box,
+.hobbies {
+    padding: 50px;
+    margin: 30px;
+    background-color: #333;
+    border-radius: 20px;
+    width: min-content;
+}
+
+td,
+th {
+    color: rgb(202, 202, 202);
+    font-size: 12px;
+}
+
+.hobbies {
+    width: 56vh;
+    margin-left: 0px;
+}
+
+h2 {
+    color: cyan;
+    padding-bottom: 25px;
+}
+
+h3 {
+    color: rgb(202, 202, 202);
+}
+
+a:link,
+a:visited {
+    color: rgb(202, 202, 202);
+    padding: 5px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 9px;
+    border: rgb(207, 22, 207) 3px solid;
+    font-weight: 700;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(207, 22, 207);
+    color: white;
+}
